@@ -1,0 +1,6 @@
+services:
+  settings_tray_translations.route_subscriber:
+    class: Drupal\settings_tray_translations\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
+
